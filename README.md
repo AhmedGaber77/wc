@@ -1,6 +1,26 @@
-## Word Count Tool (wc)
+## Build Your Own wc Tool
 
-This Go program provides functionality similar to the familiar `wc` command found in Unix/Linux systems. It analyzes a file or text input and outputs counts for lines, words, bytes, and characters.
+This repository contains my implementation of the Unix command line tool `wc` in [insert programming language]. Through this project, I learned about writing simple, modular programs with clean interfaces and how to design programs to be easily connected to other tools.
+
+### What I Learned
+
+- **Unix Philosophy**: Understanding the importance of writing simple parts connected by clean interfaces.
+- **Functional Requirements**: Implementing word, line, character, and byte count functionalities.
+- **Handling Command Line Options**: Supporting various command line options (-c, -l, -w, -m) and the default behavior.
+- **Reading from Standard Input**: Enabling the tool to read from standard input if no filename is specified.
+
+### Challenges Faced
+
+- **Modular Design**: Structuring the code to ensure each function handles one task efficiently.
+- **Option Parsing**: Parsing command line options and determining the appropriate action for each.
+- **Locale Considerations**: Handling multibyte characters for accurate character count (-m option).
+- **Error Handling**: Ensuring robust error handling to handle invalid inputs and edge cases.
+
+### Conclusion
+
+Building this `wc` tool was a rewarding challenge that deepened my understanding of software engineering principles and command line tool development. It provided valuable insights into modular design, option parsing, and handling different input sources.
+
+
 
 ### Usage
 
