@@ -1,6 +1,6 @@
 ## Build Your Own wc Tool
 
-This repository contains my implementation of the Unix command line tool `wc` in [insert programming language]. Through this project, I learned about writing simple, modular programs with clean interfaces and how to design programs to be easily connected to other tools.
+This repository contains my implementation of the Unix command line tool `wc` in Go. Through this project, I learned about writing simple, modular programs with clean interfaces and how to design programs to be easily connected to other tools.
 
 ### What I Learned
 
